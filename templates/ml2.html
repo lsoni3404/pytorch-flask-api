@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Model Deployment </title>
+<style>
+*{ margin: 0; padding: 0; }
+body{ 
+	background-color: #D6B615; 
+	font-family: Arial, sans-serif;
+	padding: 15px;
+}
+.error{ color: #B71C1C; }
+#userActions{
+	display: table-cell;
+	height: 150px;
+	width: 200px;
+	vertical-align: middle;
+	text-align: center;
+	color: #37474F;
+	background-color: #FFFFFF;
+	border: solid 2px #333333;
+	border-radius: 10px;
+}
+#userActions input{
+	width: 150px;
+	margin: auto;
+}
+#but {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #ffffff;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #787878;
+  font-size: 20px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+#but:hover,#but button:active,#but button:focus {
+  background: #43A047;
+}
+#imgPrime{ display: none; }
+</style>
+</head>
+<body>
+
+<h1>Detection in Image:</h1>
+<br>
+<br>
+<img src="/{{ user_image }}" alt="Detected Image">more text!</h1>
+
+</body>
+</html>
